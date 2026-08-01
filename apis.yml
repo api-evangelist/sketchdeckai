@@ -1,7 +1,30 @@
 aid: sketchdeckai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sketchdeckai.png
 name: Sketchdeck.ai
-description: Sketchdeck.ai is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SketchDeck.ai is a B2B SaaS company whose flagship product, LIFT, is
+  AI-powered material takeoff and counting software for the structural steel
+  fabrication and erection industry. LIFT analyzes uploaded blueprints and
+  shop drawings to automatically extract quantities and generate Bills of
+  Materials, with claimed 95-99% accuracy and up to an 80% reduction in
+  takeoff time so estimators can complete bids in minutes rather than hours or
+  days. The platform adds revision management and exports data to industry
+  estimating programs; the company reports more than $25 billion in projects
+  bid through LIFT to date. SketchDeck.ai is a Techstars-backed startup. As of
+  this enrichment pass the company publishes a marketing and demo-request
+  website only - there is no public API, developer portal, SDK, or
+  machine-readable specification surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/sketchdeckai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Construction
+- Structural Steel
+- Steel Estimating
+- Takeoff Software
+- Bill of Materials
+- Artificial Intelligence
+- SaaS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://sketchdeck.ai/
+- type: Blog
+  url: https://sketchdeck.ai/blog/
+- type: Support
+  url: https://sketchdeck.ai/contact/
+- type: SignUp
+  url: https://sketchdeck.ai/demo/
+- type: TermsOfService
+  url: https://sketchdeck.ai/terms-of-use/
+- type: PrivacyPolicy
+  url: https://sketchdeck.ai/privacy-policy/
+- type: DomainSecurity
+  url: security/sketchdeckai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
